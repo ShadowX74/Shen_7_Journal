@@ -1,1 +1,2 @@
-We set up our git in order to teach us how to do this in the future for projects, where it would allow us to write the code and push it directly to Github. It also allows us to write our journals in the Konsole and push them to Github. This way, we can keep our journals on Github while writing them in the Konsole.
+We set up our git in order to teach us how to do this in the future for projects, where it would allow us to write the code and push it directly to Github.
+It also allows us to write our journals in the Konsole and push them to Github. This way, we can keep our journals on Github while writing them in the Konsole.
