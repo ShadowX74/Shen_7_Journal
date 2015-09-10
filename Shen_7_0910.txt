@@ -1,0 +1,8 @@
+Explain what we did yesterday (with github) and why.
+More specifically -
+Describe the git steps you will do everytime.
+
+Yesterday, we set up our git. We set up a directory in the konsole and linked it to our repository on Github. We can now type our journals on the konsole and push them to Github.
+We did this so that we can gain more experience in pushing our code to Github in the future. We can now also push our code to Github and share it for a group project as well.
+
+The git steps we will do everytime are "git add *" and "git commit -m yourmessage " and to finlly push it to Github, we will use "git push -u oigin master"
