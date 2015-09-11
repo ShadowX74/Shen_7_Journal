@@ -1,0 +1,6 @@
+Explain: What is pseudocode - What is it good for?
+More specifically -
+Why will we use it?
+
+Pseudocode is false code. It is good for planning out what you are going to do before you begin.
+We will use it to plan out our code without actually writing it down in a programming language, in order to get our process down. It will help us write our thoughts and see if they should logically work.
