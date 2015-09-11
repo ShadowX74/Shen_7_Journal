@@ -1,2 +1,50 @@
 Begin:
-Start (0,0)
+Start (5,0)
+Face Left
+Draw 5 units
+Turn 90 Degree Left
+Draw 5 units
+Turn 90 Degrees Left
+Draw 5 units
+Turn 90 Degrees Right
+Draw 5 units
+Turn 90 Degrees Right
+Draw 5 units
+
+Turn 180 Degrees
+Move 8 units
+Turn 90 Degrees Left
+Draw 10 units
+Turn 180 Degrees
+Draw 5 units
+Turn 90 Degrees Left
+Move 5 units
+Turn 180 Degrees
+Draw 10 units
+
+Turn 90 Degrees Left
+Move 3 units
+Turn 90 Degrees Left
+Draw 10 units
+Turn 90 Degrees Right
+Draw 5 units
+Turn 180 Degrees
+Move 5 units
+Turn 90 Degrees Left
+Move 5 units
+Turn 90 Degrees Left
+Draw 5 units
+Turn 180 Degrees
+Move 5 units
+Turn 90 Degrees Left
+Move 5 units
+Turn 90 Degrees Left
+Draw 5 units
+
+Move 3 units
+Turn 90 Degrees Left
+Draw 10 units
+Turn 73 Degrees Right
+Draw 11 units
+Turn 73 units Left
+Draw 10 units
