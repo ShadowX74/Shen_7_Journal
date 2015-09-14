@@ -1,0 +1,14 @@
+Some students may indicate " just give me teh codez [sic], I don't want to practice organizing my thoughts. "
+How would you explain the importance of organizing one's thoughts and not proceeding in a haphazard manner?
+
+Today you will finish creating an image of your Processing art overlaid with code.
+
+Why?
+
+
+When you organize your ideas, you are making it easier to go back and find your ideas later, as well as making it easier to organize how to build out your project.
+If you don't document them now, you aren't learning, and not building a good foundation for future projects.
+You are also practicing how to organize items for harder projects in the future, when you will need to do so.
+
+We are making an image of our art overlaid with code so that we will know how to make it again in the future, and so that so that others are able to see how.
+It is also necessary to show that is is not just any piece of art, it is also made with code.
