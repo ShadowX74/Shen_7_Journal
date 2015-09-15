@@ -1,0 +1,5 @@
+An integrated development environment (IDE) is a software that contains many functions for software development.
+An IDE usually has a code editor, coding tools and a debugger.
+IDEs usually  contain a compiler, an interpreter, or they use both.
+
+They are good for writing programs in, beause their many plugins help you start out your program and help you fix an develop it.
