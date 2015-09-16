@@ -1,0 +1,18 @@
+    What are the three guiding rules / principles for this class?
+1. Tinker
+2. Ask Questions and help others
+3. No Cellphones
+
+WHY?
+What does that look like in practice?
+These rules help you find solutions to your problems, solidify your knowledge, and prevent you from being distracted,
+
+Imagine, a student encounters a problem, a command is not working,
+Describe the problem solving process.
+First, you would define the problem, which in this case of be that a command doesn't work. Next, you would look for solutions, like asking people who have done this for help, or looking it up.
+You would then decide which one you will use, plan it out, and implement it. You would evaluate the solution last of all to see how well it worked and how it compares to your original code.
+
+What is the underlying motivation for this process?
+How does it relate to the research of Perkins et al. ?
+The motivation for this process is getting you to find solutions and learn on the way. You tinker and find solutions using this method.
+Following the three guiding rules and Perkins' research helps you along the problem solving process.
