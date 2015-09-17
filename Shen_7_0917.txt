@@ -1,0 +1,9 @@
+    What are five different Java data types? What are they used for?
+
+1. Int: It is a counting number.
+2. Boolean: It is true or false.
+3. Float, Short, Long, Double: They are numbers with decimals.
+4. Char: It is a character.
+5. String: It is a whole bunch of chars.
+
+They are used for storing data and responses.
