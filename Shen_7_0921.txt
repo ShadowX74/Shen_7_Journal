@@ -1,0 +1,9 @@
+Look at ParentPortal.
+Have you received credit for all journals?
+Yes, I have.
+
+Why is it important that you use the naming convention specified when naming files?
+If we don't use it, the computer will not find our file.
+
+What is the command to copy in Linux? to copy all of a directory to the current directory?
+You use 'cp' to copy, then write in the source and the destination for the file. In order to copy an entire directory , you use 'cp -R' and write the source directory, then the destination directory.
