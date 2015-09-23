@@ -1,0 +1,18 @@
+Copyright - The right to use or copy an original work.
+Copyleft - The condition that you can modify and share a work under the condition that anything made from it has the same permissions.
+Fair use - The right to use brief sections of a copywrited work for specific purposes without permission from the owner.
+Free Speech - Your right to speak your mind without interference.
+Free Software - Free software allows you to share and modify it.
+Freeware - Freeware is free software.
+Public Domain - A group of noncopyrighted works availible for public use, due to age or forfeiture of the copyright.
+File-sharing - File-sharing is transmitting files from one computer to another through a network.
+Piracy - Piracy is the unauthorized use, copying, and sharing of software.
+Plagiarism - Plagiarism is taking someone else's work or ideas and saying that it is your own.
+Infringement - Infringement is using copyrighted works without permission.
+Proprietary - Having ownership of.
+Open Source - A software where the source code is freely availible.
+GNU GPL(General Public License) License- It is the most common free software license, which allows users to use, copy, and modify the software.
+MIT License - It is a license from MIT that permits users to modify software, but only if it includes a copy of the license and copyright notice.
+Apache License - It is a license that allows modification and distribution, but hav to include the copyright notice and a disclaimer.
+EULA - An end user license agreement gives the right of the agreement between the user and the developer
+Creative Commons - Creative Commons issues licenses that allow users to share/use or not share/use you work on your terms.
