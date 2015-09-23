@@ -16,3 +16,11 @@ MIT License - It is a license from MIT that permits users to modify software, bu
 Apache License - It is a license that allows modification and distribution, but hav to include the copyright notice and a disclaimer.
 EULA - An end user license agreement gives the right of the agreement between the user and the developer
 Creative Commons - Creative Commons issues licenses that allow users to share/use or not share/use you work on your terms.
+
+Questions:
+GNU was the company that priginally made software fore Linux. I have not seen thsi license before though.
+The license is saying that you can change and share the software under the license and does not guarantee that the software works.
+The author will not recieive compensation for any of their work, and it can be changed.
+The user is not guaranteed software that will necessarily work as they wish it be.
+You would use this license when you want to create open source free software and let people be creative with it.
+You would not use this license when you want to make money from it and keep the secrets to yourself.
