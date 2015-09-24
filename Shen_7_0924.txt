@@ -1,0 +1,10 @@
+Describe- Why did Steve Ballmer call the GPL a virus?
+The license continues itself by requiring all derivatives also use the license, therefore becoming similar to a virus.
+
+What is the relationship / difference between open source and proprietary software?
+Open source software gives you the source code to the software, but proprietary software only gives you certain rights to the software.
+
+What are the differences between the GPL and the MIT license? 
+With the GPL license, you have to license all derivative works under the same license.
+With the MIT license, all you have to do is reproduce the license and copyright notice.
+You do not have to license the derivative with the MIT license.
