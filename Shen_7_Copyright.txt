@@ -12,6 +12,7 @@ Infringement - Infringement is using copyrighted works without permission.
 Proprietary - Having ownership of.
 Open Source - A software where the source code is freely availible.
 GNU GPL(General Public License) License- It is the most common free software license, which allows users to use, copy, and modify the software.
+It is a copyleft license, which means that all derivatives must have the same licnse.
 MIT License - It is a license from MIT that permits users to modify software, but only if it includes a copy of the license and copyright notice.
 Apache License - It is a license that allows modification and distribution, but hav to include the copyright notice and a disclaimer.
 EULA - An end user license agreement gives the right of the agreement between the user and the developer
