@@ -1,0 +1,12 @@
+Define the following:
+Paid license - A paid license is a prepaid license where all royalties have been payed for in advance.
+Shareware - Software that is shared free for evaluation, but may request money for further use. (Like a beta test)
+Trialware - Software that can be used for a trial period before being having to buy the full version.
+Ad-ware - Software that displays ads.
+Crippleware - Software that is not at full function, in hopes of gettng you to buy the full version.
+Freemium - A software is free, but money is charged for additional (premium) services.
+FreeWare (vs Free-OpenSource) - Freeware is free software. Free-open source software also just gives you the source code.
+Richard Stallman - Richard Stallman created all of the software that Linux utilizes.
+He also created the Free Software Foundation and the GNU GPL License.
+Lawrence Lessig - Lawrence Lessig cofounded Creative Commons and focuses on protecting the rights of consumers.
+Eben Moglen - Eben Moglen founded the Software Freedom Law Center and contributed to the latest version of the GNU GPL.
