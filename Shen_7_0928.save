@@ -1,0 +1,8 @@
+How can you count in Java?
+You set a variable, and every time it does something, use the variable then type ++.
+
+How can you check to see if a number is divisible?
+You can use the modulo, or % to check the remainder of the division. If it is divisible by that, then the result is zero.
+
+How can you track if a number has a divisor? 
+You would run it through a prime number finder.

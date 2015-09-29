@@ -1,0 +1,6 @@
+What are methods? What are they good for?
+Methods are pieces of code that can be called upon and use the same code over and over without having to type it again.
+
+How can you use methods to find primes? 
+You can use methods to find a prime by writing a method to test a single prime number.
+You can then call this method for every number you have to test.
