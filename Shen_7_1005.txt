@@ -1,0 +1,3 @@
+What are code comments? What are they good for?
+Code comments are comments in your code that explain what each section does.
+They help people understand the code without having to look through the path that data takes through the code, which may often be hard to follow.
