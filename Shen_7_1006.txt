@@ -1,0 +1,11 @@
+What are methods?
+Methods are sections of code that you can call repeaedly in the code without having to type out the code everytime.
+
+What are classes?
+A class is like a blueprint that shows how to create many instances that all follow the template.
+
+What is an instance?
+An instance is the relationship of an object to its class, or an example of a class. An object is an instance of a class.
+
+What are class methods? 
+Class methods are methods that do not require a particular instance of a class, but rather affect the entire class.
