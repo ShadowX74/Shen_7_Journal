@@ -1,0 +1,8 @@
+What is a Java class?
+A Java class is a blueprint that tells you how to create many identical instances from it.
+
+What might a Java class be for JavaFX?
+A Java class for JavaFX would be a canvas, or a graphic context.
+
+What might be a method for class?
+A method for the class would be a method that used graphic content to draw shapes on a canvas.
