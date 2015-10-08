@@ -1,0 +1,16 @@
+What are your tentative thoughts / plans for your art project?
+I am going to create a fractal that depends on a number inputed by the user. (Will have a limit for the number)
+
+What might be methods you will use?
+I will have a method for each fractal pattern with the position and size depending of variations of the inputed number.
+I will also have a method for setting random colors for each further layer.
+
+How might you incorporate a for loop?
+I will set a for loop to choose a pattern and a color how many ever times the user entered.
+
+How might you incorporate, if, else if, else?
+I will include an if else to check if the entered number is under a certain threshhold.
+There will also be an if else chain to check the different fractals.
+
+What math might you use? 
+I will use math to create each fractal.
