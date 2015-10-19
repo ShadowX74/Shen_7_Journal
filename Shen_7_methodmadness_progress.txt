@@ -1,1 +1,2 @@
-My fractal is just the base triangle for now, and I am nearly done with the next level in the fractal. I will be getting on to the circles next.
+My Sierpinski's Triangle fractal is at two levels, and I am nearly done will be adding circle designs into them.
+I have a method for the first base triangle, then one for the second level. I also have a method for each of the circles, for a total of either 5 or 6 methods.
