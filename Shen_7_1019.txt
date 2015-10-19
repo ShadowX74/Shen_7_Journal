@@ -1,0 +1,25 @@
+Are you? Why or why not?
+No, because my computer was broken for three days.
+
+Describe what you did the days we went over art methods. What did you write? type? What were your thoughts?
+I started checking out different types of art, and settled on fractals.
+
+Did you notice that art method code was shared in the journals (as proclaimed with very large text)? Why or why not?
+Yes, I did.
+
+Have you examined the sample code on github? Why or why not?
+Yes, I have to get ideas, but it was not what I wanted.
+
+Write a sample method for making a sequence of red squares on the canvas.
+    for (int i=0; i<100; i++) {
+        drawRedSquare(gc);
+    }
+
+    private void drawRedSquare(GraphicsContext gc) {
+        gc.setFill(Color.RED);
+        Random rand = new Random();
+        int  y1 = rand.nextInt(240);
+        int  x1 = rand.nextInt(240);
+        int  side = rand.nextInt(20);
+        gc.fillRect(y1, x1, side, side);
+    }
