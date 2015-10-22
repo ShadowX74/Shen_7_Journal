@@ -1,0 +1,5 @@
+What is the purpose of the code art that you create?
+We create the code art to cement our knowledge of methods and Java. We also create the art to learn more about Java as we go.
+
+What is the purpose of creating art with code to learn?
+Using code to create art is a more creative way to learn than just making stock programs.
