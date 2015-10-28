@@ -1,0 +1,5 @@
+Is your guessing game a game? Why or why not?
+Yes, it can be played. We input data, and it returns data.
+
+What would make it better?
+Adding an introduction and limiting the amount of tries.
