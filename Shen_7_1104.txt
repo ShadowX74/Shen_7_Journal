@@ -1,0 +1,15 @@
+What is a method?
+A method is like a clay mold that you can make many copies from.
+
+Which methods did you use and how did you use them in your guessing game program?
+I used an 'intro' and 'exit' method to introduce people to the game and say bye. I also had the game method where I combined my other methods.
+I also had different methods, such as 'diffiulty' one to ask the user for their prefered difficulty and and one to ask for their names.
+Other methods asked for them to guess a number, checked the number with the pregenerated one from another method, checked if they were within the given tries,
+and asked them is they wanted to play again.
+
+What is a while loop?
+A while loop keeps doing what you tell it to do over and over as long as the piece of information you give it stays true.
+
+How did you use a while loop, boolean, and counter in your guessing game?
+I used a while loop in the main section of my code, so that the game kept on running as long as the user wanted to play again, which was a boolean.
+I used a counter for the tries left and the tries used.
