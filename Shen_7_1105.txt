@@ -1,0 +1,11 @@
+What are strings?
+Strings are groups of characters.
+
+What are they good for?
+They are good for writing out words.
+
+What are some string methods?
+Some string methods are lastIndexOf(), length(), and .substring().
+
+How do we identify string methods? 
+They work on or are compatible with strings.
