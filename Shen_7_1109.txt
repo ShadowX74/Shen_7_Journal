@@ -1,0 +1,5 @@
+Are you ready to begin coding your game? Why or why not?
+No, because my storymap is fairly large and is a bit complicated.
+
+What will be your biggest challenges? Why?
+My biggest challenge will be setting up the variables and the random rotation, because that will require extra logic and thinking.
