@@ -1,0 +1,8 @@
+In your game, how can you track what challenges the player has solved?
+You can create a variable for each challenge and set it to true after they have completed each.
+
+How can you track HP?
+You create an integer for health and take away and add to it.
+
+items? 
+You create variables to say whether the object is true or how many the player has.
