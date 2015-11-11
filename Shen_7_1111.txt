@@ -1,0 +1,9 @@
+In your game, what challenges must your player solve?
+They must survive on a desert island and all that it involves/
+
+How will you specifically track whether they have been solved?
+With static booleans and a winconditions integer.
+
+Provide variable names and types. Classes if applicable.
+Variables: booleans: again, win; integers: health, supplies, lumber, ducttape, people, winConditions, and a couple of special booleans I have not yet added.
+Classes: Random, Scanner.
