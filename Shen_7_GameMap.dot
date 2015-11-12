@@ -1,0 +1,87 @@
+digraph sample_map {
+
+A [label="Start"]
+B [label="You wake up to the sound of the pounding surf. \n You look around, and the events of last night slowly come back to you. \n You spot your ship, wrecked to one side on a reef. \n You seem to be stranded on an island. \nWhat will you do?"] //node B
+
+C [label="Die"] //node E
+E [label="You enter the ship, and are\npresented with a fork in the corridor.\nTo one side, \nyou hear cries for help.\nTo the other, you can see \nthe supply storage."]
+F [label="(+ 1-3 Supplies) (+ 1 Duct Tape) (+ 2 Lumber)\nYou wander deeper into the island, \nand find some strange fruit and building materials.\n You realize it is getting late.\nYou could start building a shelter \nfrom the surrounding foliage, \nor keep looking for food."]
+
+E1 [label="You enter the cabin, \nand see the carpenter and \na crewman unconscious to the left.\nThere are also five crewmen to the right \ntrapped under a timber beam.\n The ship is now tilting dangerously and you \nonly have time to save one group."]
+E2 [label="(+ 2-5 Supplies) (+ 1 Duct tape) (+ 2-3 Lumber)\nYou find some supplies.\n The ship is now tilting dangerously, so you run."]
+F1 [label="(- 2 Lumber) (- 1 Duct Tape) (+ 1 Shelter)\n You now have a small shelter. \nIt is late, so you fall asleep."]
+F2 [label="(+ 2-4 Supplies or 4-7 if with 5 People)\n You find more food, but now it \nis late and you need to sleep."]
+
+E11 [label="(+ 1 Carpenter) (+ 1 People)\n You rescue them and successfully escape."]
+E12 [label="(+ 5 People)\n You rescue them and escape."]
+
+AfterShip [label="After escaping the ship, you have a \nlittle bit of time to explore the island.\n Do you look for food or build a shelter?"]
+
+HUB [label="(- (# of People) Supplies) \nHub. Every New Day, \nRandom Event."]
+
+A -> B [label="commands", fontcolor=darkgreen]
+B -> C [label="Nothing/else"]
+B -> E [label="Explore Ship"]
+B -> F [label="Explore Island"]
+E -> E1 [label="Help"]
+E -> E2 [label="Supplies"]
+F -> F1 [label="Shelter"]
+F -> F2 [label="Food"]
+E1 -> E11 [label="CP + 1"]
+E1 -> E12 [label="+ 5"]
+E11 -> AfterShip
+E12 -> AfterShip
+E2 -> AfterShip
+AfterShip -> F1 [label="Shelter"]
+AfterShip -> F2 [label="Food"]
+F1 -> HUB
+F2 -> HUB
+
+D0 [label="You wake up bright and early,\n ready to forage for supplies\n or build more shelter."]
+D1 [label=""]
+D2 [label=""]
+D3 [label=""]
+D4 [label=""]
+D5 [label=""]
+D6 [label=""]
+D7 [label=""]
+D8 [label=""]
+D9 [label=""]
+D10 [label=""]
+D11 [label=""]
+D12 [label=""]
+D13 [label=""]
+D14 [label=""]
+D15 [label=""]
+D16 [label=""]
+D17 [label=""]
+D18 [label=""]
+D19 [label=""]
+D20 [label=""]
+D21 [label=""]
+D22ninja [label=""]
+
+HUB -> D0
+HUB -> D1
+HUB -> D2
+HUB -> D3
+HUB -> D4
+HUB -> D5
+HUB -> D6
+HUB -> D7
+HUB -> D8
+HUB -> D9
+HUB -> D10
+HUB -> D11
+HUB -> D12
+HUB -> D13
+HUB -> D14
+HUB -> D15
+HUB -> D16
+HUB -> D17
+HUB -> D18
+HUB -> D19
+HUB -> D20
+HUB -> D21
+HUB -> D22ninja
+}
