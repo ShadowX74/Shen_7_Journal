@@ -1,0 +1,5 @@
+How will you use while loops in your game? Why?
+I will use a while loop to see if the person wants to play again. Because I can (also because it is effective)!
+
+How will you use methods in your game? Why?
+I will use methods for each chioce so I can call them inside themselves.
