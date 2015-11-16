@@ -1,0 +1,7 @@
+No, really, How will you use methods in your game? Why?
+Be specific.
+I will use methods for each decision in my game, so that I can call each one inside itself in case they input an invalid answer and for better organization.
+I also use them to allow the user to check their stats.
+
+What values will you pass to them?
+I currently have not passed any values to them.
