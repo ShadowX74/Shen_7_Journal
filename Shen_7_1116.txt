@@ -4,4 +4,5 @@ I will use methods for each decision in my game, so that I can call each one ins
 I also use methods to allow the user to check their stats.
 
 What values will you pass to them?
-I currently have not passed any values to them.
+I have passd a value to a check method where I compare the user's input to the string I pass to the method.
+What exact string I pass depends on the choice the user faces.
