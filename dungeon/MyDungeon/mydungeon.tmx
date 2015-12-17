@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="tilesetlarge" tilewidth="32" tileheight="32" tilecount="64">
+  <image source="tilesetlarge.png" width="256" height="256"/>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+    <property name="tree" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+    <property name="tree" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+    <property name="mountain" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="blocked" value="true"/>
+    <property name="tree" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="blocked" value="true"/>
+    <property name="mountain" value="true"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="blocked" value="true"/>
+    <property name="tree" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="blocked" value="true"/>
+    <property name="mountain" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="blocked" value="true"/>
+    <property name="tree" value="true"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="blocked" value="true"/>
+    <property name="tree" value="true"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="blocked" value="true"/>
+    <property name="tree" value="true"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="blocked" value="true"/>
+    <property name="mountain" value="true"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="blocked" value="true"/>
+    <property name="tree" value="true"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="blocked" value="true"/>
+    <property name="mountain" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="65" name="awesome" tilewidth="32" tileheight="32" tilecount="3072">
+  <image source="DungeonCrawl_ProjectUtumnoTileset.png" width="2048" height="1536"/>
+  <tile id="854">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="855">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="856">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="857">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="858">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="859">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="860">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1047">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1048">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1049">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1050">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1152">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="3137" name="tile2map32" tilewidth="32" tileheight="32" tilecount="1320">
+  <image source="Tileset/tile2map32.png" width="128" height="10560"/>
+ </tileset>
+ <tileset firstgid="4457" name="floors" tilewidth="32" tileheight="32" tilecount="171">
+  <image source="RexRules.png" width="288" height="608"/>
+ </tileset>
+ <tileset firstgid="4628" name="tile_1small" tilewidth="32" tileheight="32" tilecount="16">
+  <image source="tile_1small.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="4644" name="tile_2small" tilewidth="32" tileheight="32" tilecount="16">
+  <image source="tile_2small.png" width="128" height="128"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="base" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3cSZLCMAyFYRa5/z0Zmr4CRRUputKBYBRZT/K/+FZsHA8aHOA4HQ5HSDgJjEHFWWAMr/wIjAEA4CciBynnPUXk4nWV99HVYa4qz1dlimunNp4eLgJjAFDfMr5Gx9u5HokeBwAAkciDaEHv+Dnls2W9i1V//81dM343Pvc+n8s9qBwPWlR5juwuD4r36llUn7fqzwe0oH9BNuq9lgr1XOcVe9gf2MPe39UCtnBPB9SnXptl0jqX6j2vQv1K7bPum72ztj8V1riCrXdaLUZck4x5aMR1gg+FWiDjGbSizwUAoC/qZx1btZ9Cfdr7mUf0yT6gZo6Ze3XZxx+FPNju3V7jnUF/e9YHxJGcstSIPeKtZwwaMb5l2VvIL3M9ppo7Ob+A3XUaM/8ryrIWxF4sWeuEtTtg7oWBGBnyEMaQuX9uRW0V41WtMf/vTvT4AEXf1AmWGEdPACDCnr/Jg67TNFbPARvvuxJ6Qpt7/8Z5fs7FaP3saM9b3d86rMfachcO2FDD6CGuxZrzGPWJP+6NmTMAuVliEnkWysi3zD+A/zibQA2cZcDPDQTFXWhAnAAA
+  </data>
+ </layer>
+ <layer name="walls" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3YUW7CMBAAUT56/ztxs34hIeQ1a69tJjBPihQVx4mYxkl7/7vd7m6o7eF5f0bv+Orcu5Cuyx6s62r1GLmXdoxfda9H52x9BxTRNe4614r9zJzRmOjzTLcTrtJjdM5oTBalx6l3hR0NKnP2znHS6ud5a/6R/co8vfGja9Ev96gcO/NciZ7pxOfH6Pozuy71rmfn/sx1nDT6u7DqnScz3h658a39aMzoPLv2K+8eJ2XXq+fPo7GtMa/nWr2fmX8GpUc0prWfGXNi/RkZk/VNPXrHXmn7hN561fpZ5Zmh9zJr/+m14pdVelTWerWt7EFbi69ox/2hedm/HXrHeg+sU+nxOo/q3r3bZn/37bHGzP3hd7+PPViy6xX5fwzfZOX3aI86e7DYg8UeLD6HWezBYg8We7DYg8UeLPZgsQeLPVjswWIPFnuw2IPFHiz2YLEHiz1Y7MFiDxZ7sNiDxR4s9mCxB4s9WOzBYg8We7DYg8UeLPZgsQeLPVjswWIPFnuw2IPFHiz2YLEHiz1Y7MFiDxZ7sNiDxR4s9mCxB4s9WOzBYg8We7DYg8UeLPZgsQeLPVjswWIPFnuw2IPFHiz2YLEHiz1Y7MFiDxZ7sNiD5dHDjbP9Az6t7OFAnAAA
+  </data>
+ </layer>
+</map>

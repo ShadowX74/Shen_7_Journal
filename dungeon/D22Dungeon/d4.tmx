@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="100" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="tile_1" tilewidth="64" tileheight="64">
+  <image source="tile_1.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="17" name="tile_2" tilewidth="64" tileheight="64">
+  <image source="tile_2.png" width="256" height="256"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="bottom" width="50" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3Stw3DABAEQVLeJey/WX0RlDAENrhg45t1WZbT7Dy7zNaD9nV2m91nj4P2NnvOXrP37HPQ3v74+y97+9PvucrVETtXVufK6lxZnSurc2V1rqzOldW5sjpXVufK6lxZnSurc2V1rqzOldW5sjpXXgsu9mjBxR6tuMhVrsRWXOQqV2IrLnKVK7EVF7nKldiKi1zlSmzFRa5yJbbiIle5Eltxkatcia24yFWuxFZc5CpXYisucpUrsRUXucqV2IqLXOVKbMVFrnIl9hfbKytBIE4AAA==
+  </data>
+ </layer>
+ <layer name="walls" width="50" height="100">
+  <properties>
+   <property name="blocked" value="true"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3VSQ6EIBBAUa/gou9/1V6ZGFITxaDgfwlJawMCRcF5HMe5Sbncf79FZEy7zOPn1IvE0KvXuk8y8ZD+j7wfEcf7PLxSxsNb9/Ib2nMPNX168Yh+I7I377+ttSv7zMQjypuHNk6tvtauZjxS/UheR5/LfK2NR4QWj5Zxl8/SPKy2Urua880bVzY+2vprfWt9WqLx8Iw4v3rlR8s3I3eSt/a94lFbtDFYeWHljrX3ovnRyjp3pfyV2mn9SbL3hydyXlnncW3Oz4hHtr00L638AnUyOZLNq0N5F513by19ZtrOyI/adpm11c7MnnusVq94jIhPDS1nWu6wVbwxHhkj82NmGXVezTbq/pgtep9fnt4/o876t9g5P57eG73OqxXio629VeeNyjF+LR5P73/vjN35vFqRlh8rFGnM5bvVrHpelXaIx/0+36EAAAAAAAAAAAAAAAAAAAAAwFf9AabZ9cwgTgAA
+  </data>
+ </layer>
+ <layer name="hostiles" width="50" height="100">
+  <properties>
+   <property name="hostile" value="true"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3TsQkAQAgDQN1/6Z9AsHsid1XKQEgVwF7/LrCQ0PGSHjJwh29nshsAAAAAAAAAAAAAAAAAAABApgceOvSBIE4AAA==
+  </data>
+ </layer>
+</map>
