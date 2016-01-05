@@ -251,8 +251,7 @@ public class Unwavering extends BasicGameState {
 
 		// ****************
 
-//		grassMap = new TiledMap("/home/ShadowX/Shen_7_Journals/dungeon/MyDungeon/mydungeon.tmx");
-                grassMap = new TiledMap("res/d4.tmx");
+		grassMap = new TiledMap("res/d4.tmx");
 
 		// Ongoing checks are useful
 
@@ -401,7 +400,8 @@ public class Unwavering extends BasicGameState {
 		// System.out.println("Number of tile layers: "
 		// +grassMap.getLayerCount());
 
-		System.out.println("The grassmap is " + grassMap.getWidth() + " by " + grassMap.getHeight());
+		System.out.println("The grassmap is " + grassMap.getWidth() + "by "
+				+ grassMap.getHeight());
 
 		for (int xAxis = 0; xAxis < grassMap.getWidth(); xAxis++) {
 
@@ -416,19 +416,20 @@ public class Unwavering extends BasicGameState {
 				// You should read the TMX file. It's xml, i.e.,human-readable
 				// for a reason
 
-				int tileID = grassMap.getTileId(xAxis, yAxis, 0);
+				int tileID = grassMap.getTileId(xAxis, yAxis, 1);
 
-				String value = grassMap.getTileProperty(tileID,"blocked", "false");
+				String value = grassMap.getTileProperty(tileID,
+
+				"blocked", "false");
 
 				if ("true".equals(value)) {
 
-					System.out.println("The tile at x " + xAxis + " and y axis " + yAxis + " is blocked.");
+					System.out.println("The tile at x " + xAxis + " andy axis "
+							+ yAxis + " is blocked.");
 
 					blocked.blocked[xAxis][yAxis] = true;
 
-				} else {
-                                    System.out.println("The tile at x " + xAxis + " and y axis " + yAxis + " is not blocked.");
-                                }
+				}
 
 			}
 
