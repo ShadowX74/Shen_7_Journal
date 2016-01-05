@@ -123,6 +123,11 @@
     <property name="blocked" value="true"/>
    </properties>
   </tile>
+  <tile id="984">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
   <tile id="1047">
    <properties>
     <property name="blocked" value="true"/>
@@ -177,8 +182,11 @@
   </data>
  </layer>
  <layer name="changing" width="100" height="100">
+  <properties>
+   <property name="blocked" value="true"/>
+  </properties>
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3DoQ0AMAgAMAQn8P8v+2wCiQfTJo0AAAAAAAAAAAAAAACYKvvzPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuz7cLFb3QJwAAA==
+   H4sIAAAAAAAAA+3WoQ0AIAxFQUQnIBiGYH/NZggETAAk3CXPN/mmKQEAAAC/yHH7Anb2AACApfmPn1dt9BR7AAAAAKeUmHVdDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAswa4SszSQJwAAA==
   </data>
  </layer>
 </map>
