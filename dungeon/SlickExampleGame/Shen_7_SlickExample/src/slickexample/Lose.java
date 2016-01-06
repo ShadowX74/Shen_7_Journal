@@ -33,7 +33,7 @@ import org.newdawn.slick.state.transition.FadeOutTransition;
 
 
 
-public class lose extends BasicGameState {
+public class Lose extends BasicGameState {
 
 
     
@@ -45,7 +45,7 @@ public class lose extends BasicGameState {
     
 
 
-     public lose(int xSize, int ySize) {
+     public Lose(int xSize, int ySize) {
 
 
 

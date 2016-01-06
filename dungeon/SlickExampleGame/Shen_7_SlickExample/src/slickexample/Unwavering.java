@@ -344,6 +344,11 @@ public class Unwavering extends BasicGameState {
 		stuff1.add(speedpotion);
 		stuff1.add(speedpotion1);
 		
+                stormy = new Ninja(0,0);
+                daniel = new Ninja(124,254);
+                dojo.add(stormy);
+                dojo.add(daniel);
+                
 		antidote = new Itemwin(3004,92);
 		stuffwin.add(antidote);
 	}
@@ -388,7 +393,9 @@ public class Unwavering extends BasicGameState {
 			}
 		}
 		
-		
+		stormy.currentImage.draw(stormy.x, stormy.y);
+                daniel.currentImage.draw(daniel.x, daniel.y);
+                
 		for (Item1 h : stuff1) {
 			if (h.isvisible) {
 				h.currentImage.draw(h.x, h.y);
@@ -397,7 +404,7 @@ public class Unwavering extends BasicGameState {
 
 			}
 		}
-		
+                
 		for (Itemwin w: stuffwin) {
 			if (w.isvisible) {
 				w.currentImage.draw(w.x, w.y);

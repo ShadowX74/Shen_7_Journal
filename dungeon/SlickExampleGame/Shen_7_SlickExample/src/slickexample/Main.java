@@ -29,9 +29,9 @@ public class Main extends StateBasedGame{
 
       this.addState(new Unwavering(xSize, ySize));
       
-      this.addState(new lose(xSize, ySize));
+      this.addState(new Lose(xSize, ySize));
       
-      this.addState(new win(xSize, ySize));
+      this.addState(new Win(xSize, ySize));
 
    }
 

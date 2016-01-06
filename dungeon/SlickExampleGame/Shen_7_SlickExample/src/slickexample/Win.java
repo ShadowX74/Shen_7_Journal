@@ -37,7 +37,7 @@ import org.newdawn.slick.state.transition.FadeOutTransition;
 
 
 
-public class win extends BasicGameState {
+public class Win extends BasicGameState {
 
 
     
@@ -49,7 +49,7 @@ public class win extends BasicGameState {
     
 
 
-     public win(int xSize, int ySize) {
+     public Win(int xSize, int ySize) {
 
 
 
