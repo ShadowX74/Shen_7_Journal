@@ -393,8 +393,17 @@ public class Unwavering extends BasicGameState {
 			}
 		}
 		
-		stormy.currentImage.draw(stormy.x, stormy.y);
-                daniel.currentImage.draw(daniel.x, daniel.y);
+		for (Ninja n : dojo) {
+			if (n.isvisible) {
+				n.currentImage.draw(n.x, n.y);
+				// draw the hitbox
+				g.draw(n.hitbox);
+
+			}
+		}
+                
+//                stormy.currentImage.draw(stormy.x, stormy.y);
+//                daniel.currentImage.draw(daniel.x, daniel.y);
                 
 		for (Item1 h : stuff1) {
 			if (h.isvisible) {
@@ -519,6 +528,20 @@ public class Unwavering extends BasicGameState {
 			}
 		}
 		
+		for (Ninja n : dojo) {
+
+			if (Player.rect.intersects(n.hitbox)) {
+				//System.out.println("yay");
+				if (n.isvisible) {
+
+					Player.health += 999999999;
+                                        Player.speed += -1f;
+					n.isvisible = false;
+				}
+
+			}
+		}
+                
 		for (Item1 h : stuff1) {
 
 			if (Player.rect.intersects(h.hitbox)) {
