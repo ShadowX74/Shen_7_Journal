@@ -1,0 +1,6 @@
+What slick game will you create?
+I will create a slick game where you need to find keys and escape a castle, then a market, etc, until you reach the end.
+
+What challenges have you faced/are you facing with your slick game?
+I have to add keys that will open doors in my game. I will also need to create a shop interface and change the game depending on what item they get 
+(May not be implemented if takes too long).
