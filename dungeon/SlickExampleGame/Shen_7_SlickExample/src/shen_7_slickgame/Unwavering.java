@@ -550,8 +550,8 @@ public class Unwavering extends BasicGameState {
 				//System.out.println("yay");
 				if (n.isvisible) {
 
-//					Player.health += 100;
-//                                        Player.speed += .1f;
+					Player.health += 100;
+                                        Player.speed += .1f;
 					n.isvisible = false;
 				}
 
