@@ -1,4 +1,4 @@
-package slickexample;
+package shen_7_slickgame;
 
 
 import org.newdawn.slick.*;

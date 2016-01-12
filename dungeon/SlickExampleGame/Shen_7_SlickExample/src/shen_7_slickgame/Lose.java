@@ -1,4 +1,4 @@
-package slickexample;
+package shen_7_slickgame;
 
 
 import org.newdawn.slick.Color;
@@ -33,19 +33,19 @@ import org.newdawn.slick.state.transition.FadeOutTransition;
 
 
 
-public class Menu extends BasicGameState {
+public class Lose extends BasicGameState {
 
 
     
 
 
     private StateBasedGame game;
-
     public Image startimage;
+
     
 
 
-     public Menu(int xSize, int ySize) {
+     public Lose(int xSize, int ySize) {
 
 
 
@@ -60,8 +60,7 @@ public class Menu extends BasicGameState {
 
 
             throws SlickException {
-    	
-    	startimage = new Image("res/Lorelei.png");
+    	startimage = new Image("res/LossScreen.png");
 
 
         this.game = game;
@@ -82,28 +81,22 @@ public class Menu extends BasicGameState {
 
 
             throws SlickException {
+    	
+    	startimage.draw();
+
 
 
 // TODO AutoÃ¢â‚¬Âgenerated method stub
-    	
-    	
 
 
         g.setColor(Color.white);
-        
-        startimage.draw();
-
-        //g.drawString("stuff", 300, 200);
-        
-        //g.drawString("collect the antidote before time runs out! red potions are health and yellow potions make you run faster", 50, 300);
 
 
-        //g.drawString("1. Play Game", 50, 100);
+        //g.drawString("You LOSE!", 450, 200);
+        g.drawString("press 1 to try again", 400, 320);
 
-        //g.drawString("2. High Scores(", 50, 120);
 
-
-        //g.drawString("3. Quit", 50, 140);
+       
 
 
     }
@@ -135,7 +128,7 @@ public class Menu extends BasicGameState {
 // TODO AutoÃ¢â‚¬Âgenerated method stub
 
 
-        return 0;
+        return 2;
 
 
     }
@@ -153,7 +146,13 @@ public class Menu extends BasicGameState {
 
             case Input.KEY_1:
 
-
+                Player.health  = 100000;
+                Player.speed = .4f;
+                Unwavering.counter = 0;
+                Itemwin.isvisible = true;
+                Player.x = 96f;
+                Player.y = 228f;
+                //redo potions and reset cordinates of player
                 game.enterState(1, new FadeOutTransition(Color.black), new FadeInTransition(Color.black));
 
 

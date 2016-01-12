@@ -1,4 +1,4 @@
-package slickexample;
+package shen_7_slickgame;
 
 /*
  * To change this license header, choose License Headers in Project Properties.

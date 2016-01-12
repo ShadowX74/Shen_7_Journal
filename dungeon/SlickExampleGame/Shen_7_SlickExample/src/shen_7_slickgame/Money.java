@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package slickexample;
+package shen_7_slickgame;
 
 import org.newdawn.slick.Image;
 import org.newdawn.slick.SlickException;
@@ -14,19 +14,19 @@ import org.newdawn.slick.geom.Shape;
  *
  * @author ShadowX
  */
-public class Itemwin {
-	public int x;
+public class Money {
+    public int x;
 	public int y;
-	public static boolean isvisible = true;
+	public boolean isvisible = true;
 	Image currentImage;
 	Shape hitbox;
-	Image antidote = new Image("res/antidote.png");
+	Image coin = new Image("res/MyDungeon/crawl-tiles Oct-5-2010//item/misc/gold_pile.png");
 
-	Itemwin (int a, int b) throws SlickException {
+	Money(int a, int b) throws SlickException {
 		this.x = a;
 		this.y = b;
 		this.hitbox = new Rectangle(a, b, 32, 32);// 64 is the width of the item
-		this.currentImage = antidote;
+		this.currentImage = coin;
 
 	}
 

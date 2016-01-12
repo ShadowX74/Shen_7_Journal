@@ -1,4 +1,4 @@
-package slickexample;
+package shen_7_slickgame;
 
 import org.newdawn.slick.state.*;
 
@@ -92,7 +92,7 @@ public class Unwavering extends BasicGameState {
 
 	// changed to match size of sprites & map
 
-	private static final int SIZE = 64;
+	private static final int SIZE = 32;
 
 	// screen width and height won't change
 
@@ -118,7 +118,7 @@ public class Unwavering extends BasicGameState {
 
 		// ****************
 
-		grassMap = new TiledMap("res/d4.tmx");
+		grassMap = new TiledMap("res/MyDungeon/mydungeon.tmx");
 
 		// Ongoing checks are useful
 
@@ -133,8 +133,7 @@ public class Unwavering extends BasicGameState {
 
 		// *********************************************************************************
 
-		SpriteSheet runningSS = new SpriteSheet(
-				"res/ogrespritesheet.png",64, 64, 0);
+		SpriteSheet runningSS = new SpriteSheet("res/MyDungeon/traveler.png",64, 64, 0);
 
 		// System.out.println("Horizontal count: "
 		// +runningSS.getHorizontalCount());
@@ -518,8 +517,7 @@ public class Unwavering extends BasicGameState {
 			if (cangoright
 					&& (!(isBlocked(Player.x + SIZE + fdelta,
 
-					Player.y) || isBlocked(Player.x + SIZE + fdelta, Player.y
-							+ SIZE - 1)))) {
+					Player.y) || isBlocked(Player.x + SIZE + fdelta, Player.y + SIZE - 1)))) {
 
 				sprite.update(delta);
 
@@ -531,7 +529,7 @@ public class Unwavering extends BasicGameState {
 		}
 
 		Player.rect.setLocation(Player.getplayershitboxX(),
-				Player.getplayershitboxY());
+		Player.getplayershitboxY());
 
 		for (Item i : stuff) {
 
@@ -552,8 +550,8 @@ public class Unwavering extends BasicGameState {
 				//System.out.println("yay");
 				if (n.isvisible) {
 
-					Player.health += 100;
-                                        Player.speed += .1f;
+//					Player.health += 100;
+//                                        Player.speed += .1f;
 					n.isvisible = false;
 				}
 
