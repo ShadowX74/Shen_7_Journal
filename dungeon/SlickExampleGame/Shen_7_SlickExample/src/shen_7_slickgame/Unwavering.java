@@ -133,7 +133,7 @@ public class Unwavering extends BasicGameState {
 
 		// *********************************************************************************
 
-		SpriteSheet runningSS = new SpriteSheet("res/MyDungeon/traveler.png",64, 64, 0);
+		SpriteSheet runningSS = new SpriteSheet("res/MyDungeon/travelersmall.png",32, 32, 0);
 
 		// System.out.println("Horizontal count: "
 		// +runningSS.getHorizontalCount());
@@ -284,9 +284,7 @@ public class Unwavering extends BasicGameState {
 
 				int tileID = grassMap.getTileId(xAxis, yAxis, 1);
 
-				String value = grassMap.getTileProperty(tileID,
-
-				"blocked", "false");
+				String value = grassMap.getTileProperty(tileID,"blocked", "false");
 
 				if ("true".equals(value)) {
 
@@ -498,9 +496,7 @@ public class Unwavering extends BasicGameState {
 
 			sprite = left;
 
-			if (!(isBlocked(Player.x - fdelta, Player.y) || isBlocked(Player.x
-
-			- fdelta, Player.y + SIZE - 1))) {
+			if (!(isBlocked(Player.x - fdelta, Player.y) || isBlocked(Player.x - fdelta, Player.y + SIZE - 1))) {
 
 				sprite.update(delta);
 

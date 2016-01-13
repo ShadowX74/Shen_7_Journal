@@ -24,9 +24,9 @@ public class Player {
 	
 	public static float speed = .4f;
 
-	static float hitboxX = x + 8f;
+	static float hitboxX = x + 4f;
 
-	static float hitboxY = y + 8f;
+	static float hitboxY = y + 4f;
 
 	private static int startX, startY, width = 30, height = 42;
 
