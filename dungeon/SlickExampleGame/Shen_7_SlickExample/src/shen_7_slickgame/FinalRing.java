@@ -20,7 +20,7 @@ public class FinalRing {
 	public boolean isvisible = true;
 	Image currentImage;
 	Shape hitbox;
-	Image key = new Image("res/MyDungeon/crawl-tiles Oct-5-2010/UNUSED/rings");
+	Image key = new Image("res/MyDungeon/crawl-tiles Oct-5-2010/UNUSED/rings/ring_twisted.png");
 
 	FinalRing(int a, int b) throws SlickException {
 		this.x = a;

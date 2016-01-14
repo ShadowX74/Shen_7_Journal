@@ -19,7 +19,7 @@ import org.newdawn.slick.geom.Shape;
 public class Enemy {
 
 
-    private static int numberOfEnemies = 0;
+    private static int numberOfEnemies = 1;
 
     private int id;
 
