@@ -16,13 +16,15 @@ import org.newdawn.slick.geom.Shape;
  */
 public class Player {
 
-	public static float x = 96f;
+	public static float x = 49f;
 
-	public static float y = 228f;
+	public static float y = 86f;
 
-	public static int health = 100000;
+	public static int time = 100000;
 	
 	public static float speed = .4f;
+        
+        public static int health = 100;
 
 	static float hitboxX = x + 4f;
 

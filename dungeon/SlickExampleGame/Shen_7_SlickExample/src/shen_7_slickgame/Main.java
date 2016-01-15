@@ -11,7 +11,7 @@ public class Main extends StateBasedGame{
 
    
 
-   public static final String gamename = "Unwavering";
+   public static final String gamename = "Barbarian Horde Approaching!";
 
    public static final int play = 0;
 
@@ -27,7 +27,7 @@ public class Main extends StateBasedGame{
 
       this.addState(new Menu(xSize, ySize));
 
-      this.addState(new Unwavering(xSize, ySize));
+      this.addState(new BarbarianHorde(xSize, ySize));
       
       this.addState(new Lose(xSize, ySize));
       

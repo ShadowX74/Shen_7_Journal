@@ -146,11 +146,11 @@ public class Win extends BasicGameState {
 
             case Input.KEY_1:
 
-                Player.health  = 100000;
+                Player.time  = 100000;
                 Player.speed = .4f;
-                Unwavering.counter = 0;
-                Player.x = 96f;
-                Player.y = 228f;
+                BarbarianHorde.counter = 0;
+                Player.x = 49f;
+                Player.y = 86f;
                 
                 
                 //item.isvisible = true;
