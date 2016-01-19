@@ -59,7 +59,7 @@ public class BarbarianHorde extends BasicGameState {
         
         public Keys key1, key2;
         
-        public Enemy flava, flav;
+        public Enemy MetalBoss, SandBoss;
 
 //	public ArrayList<Item> stuff = new ArrayList();
 
@@ -353,12 +353,12 @@ public class BarbarianHorde extends BasicGameState {
 //                dojo.add(stormy);
 //                dojo.add(daniel);
                 
-                flava = new Enemy(300,300);
-                flav = new Enemy(256,256);
-                bonez.add(flava);
-                bonez.add(flav);
+                MetalBoss = new Enemy(2944,1460);
+                SandBoss = new Enemy(1597,2199);
+                bonez.add(MetalBoss);
+                bonez.add(SandBoss);
                 
-		ring = new FinalRing(1600, 3130);
+		ring = new FinalRing(1615, 3133);
 		stuffwin.add(ring);
 	}
 
@@ -410,6 +410,10 @@ public class BarbarianHorde extends BasicGameState {
 //
 //			}
 //		}
+                
+                for (Enemy r : bonez) {
+                    r.move();
+                }
                 
 		for (Enemy e : bonez) {
 			if (e.isAlive) {
@@ -485,9 +489,7 @@ public class BarbarianHorde extends BasicGameState {
 
 			sprite = down;
 
-			if (!isBlocked(Player.x, Player.y + SIZE + fdelta)
-
-			|| !isBlocked(Player.x + SIZE - 1, Player.y + SIZE + fdelta)) {
+			if (!isBlocked(Player.x, Player.y + SIZE + fdelta) && !isBlocked(Player.x + SIZE - 1, Player.y + SIZE + fdelta)) {
 
 				sprite.update(delta);
 
@@ -570,6 +572,19 @@ public class BarbarianHorde extends BasicGameState {
 //			}
 //		}
 		
+                for (Enemy e : bonez) {
+
+			if (Player.rect.intersects(e.rect)) {
+				//System.out.println("yay");
+				if (e.isAlive) {
+
+					Player.health -= 99;
+					e.isAlive = false;
+				}
+
+			}
+		}
+                
 		for (FinalRing w : stuffwin) {
 
 			if (Player.rect.intersects(w.hitbox)) {

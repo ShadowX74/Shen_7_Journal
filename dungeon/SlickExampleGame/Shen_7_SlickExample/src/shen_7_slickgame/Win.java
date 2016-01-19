@@ -146,8 +146,9 @@ public class Win extends BasicGameState {
 
             case Input.KEY_1:
 
-                Player.time  = 100000;
+                Player.time  = 500000;
                 Player.speed = .4f;
+                Player.health = 100;
                 BarbarianHorde.counter = 0;
                 Player.x = 49f;
                 Player.y = 86f;
@@ -156,6 +157,7 @@ public class Win extends BasicGameState {
                 //item.isvisible = true;
                 //item1.isvisible = true;
                 Itemwin.isvisible = true;
+                Enemy.isAlive = true;
                 game.enterState(1, new FadeOutTransition(Color.black), new FadeInTransition(Color.black));
 
 

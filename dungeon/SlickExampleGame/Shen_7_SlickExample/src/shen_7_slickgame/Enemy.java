@@ -28,7 +28,7 @@ public class Enemy {
     private Animation skeleton, skup, skdown, skleft, skright, skwait, skdead;
 
     int SIZE = 64;
-    boolean isAlive = true;
+    static boolean isAlive = true;
 
     //static int crewsize;
 
@@ -126,7 +126,7 @@ public class Enemy {
         this.mydirection = Direction.WAIT;
 
 
-        SpriteSheet skeletonSS = new SpriteSheet("res/skeletonwspearsprites.png",
+        SpriteSheet skeletonSS = new SpriteSheet("res/MyDungeon/evilmagespritesheet.png",
 
                 64, 64, 0);
 
