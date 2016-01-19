@@ -1,0 +1,12 @@
+What slick game did you create?
+I created a game where you had to race against the time to find the final item. I was not able to fully add in the items you had to find on the way or all of the enemies.
+
+What challenges did you solve?
+I fixed the blocking issues I had with my map and how to adjust the code to a 32 bit map. I also found out how to set up enemies so that they 
+
+Before the Winter break, you were admonished to finish your maps and spritesheets - so that you would be ready to go with the game when we got back.
+Did you? Why or why not?
+No, I did not. I had to change my map after I started coding in Netbeans because I realized my map qould not be sufficient for what Slick was able to do.
+
+Were you able to meet the timeline? Why or why not? [Focus on what you did or did not do. Journals ascribing blame to others will not be considered.]
+No, I was not able to resolve the issues in my code fast enough. They held me back, and therefore, I was not able to meet the timeline.
