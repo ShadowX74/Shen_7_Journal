@@ -81,7 +81,7 @@ public class Enemy {
     float hitboxX = this.Bx + 8f;
 
     float hitboxY = this.By + 8f;
-
+    static boolean isVisible = true;
     public Shape rect;
 
 

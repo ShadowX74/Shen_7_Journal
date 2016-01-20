@@ -60,7 +60,7 @@ public class Lose extends BasicGameState {
 
 
             throws SlickException {
-    	startimage = new Image("res/LossScreen.png");
+    	startimage = new Image("res/MyDungeon/Lose.png");
 
 
         this.game = game;
@@ -146,12 +146,14 @@ public class Lose extends BasicGameState {
 
             case Input.KEY_1:
 
-                Player.time  = 100000;
+                Player.time  = 500000;
                 Player.speed = .4f;
                 BarbarianHorde.counter = 0;
                 Itemwin.isvisible = true;
                 Player.x = 49f;
                 Player.y = 86f;
+                BarbarianHorde.SandBoss.isVisible = true;
+                BarbarianHorde.MetalBoss.isVisible = true;
                 //redo potions and reset cordinates of player
                 game.enterState(1, new FadeOutTransition(Color.black), new FadeInTransition(Color.black));
 

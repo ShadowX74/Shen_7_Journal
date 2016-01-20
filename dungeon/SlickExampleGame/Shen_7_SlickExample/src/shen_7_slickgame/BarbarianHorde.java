@@ -59,7 +59,7 @@ public class BarbarianHorde extends BasicGameState {
         
         public Keys key1, key2;
         
-        public Enemy MetalBoss, SandBoss;
+        static public Enemy MetalBoss, SandBoss;
 
 //	public ArrayList<Item> stuff = new ArrayList();
 
@@ -71,7 +71,7 @@ public class BarbarianHorde extends BasicGameState {
         
         public ArrayList<Keys> keyz = new ArrayList();
         
-        public ArrayList<Enemy> bonez = new ArrayList();
+        public ArrayList<Enemy> bosses = new ArrayList();
         
 	private boolean[][] hostiles;
 
@@ -355,8 +355,8 @@ public class BarbarianHorde extends BasicGameState {
                 
                 MetalBoss = new Enemy(2944,1460);
                 SandBoss = new Enemy(1597,2199);
-                bonez.add(MetalBoss);
-                bonez.add(SandBoss);
+                bosses.add(MetalBoss);
+                bosses.add(SandBoss);
                 
 		ring = new FinalRing(1615, 3133);
 		stuffwin.add(ring);
@@ -411,12 +411,12 @@ public class BarbarianHorde extends BasicGameState {
 //			}
 //		}
                 
-                for (Enemy r : bonez) {
+                for (Enemy r : bosses) {
                     r.move();
                 }
                 
-		for (Enemy e : bonez) {
-			if (e.isAlive) {
+		for (Enemy e : bosses) {
+			if (e.isVisible) {
 				e.currentanime.draw(e.Bx, e.By);
 				// draw the hitbox
 				//g.draw(e.hitbox);
@@ -572,14 +572,14 @@ public class BarbarianHorde extends BasicGameState {
 //			}
 //		}
 		
-                for (Enemy e : bonez) {
+                for (Enemy e : bosses) {
 
 			if (Player.rect.intersects(e.rect)) {
 				//System.out.println("yay");
-				if (e.isAlive) {
+				if (e.isVisible) {
 
 					Player.health -= 99;
-					e.isAlive = false;
+					e.isVisible = false;
 				}
 
 			}
@@ -600,7 +600,7 @@ public class BarbarianHorde extends BasicGameState {
 		}
 		 
 		Player.time -= counter/1000;
-		if(Player.time <= 0){
+		if(Player.time <= 0 || Player.health <= 0){
 			makevisible();
 			sbg.enterState(2, new FadeOutTransition(Color.black), new FadeInTransition(Color.black));
 		}

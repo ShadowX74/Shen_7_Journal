@@ -152,12 +152,12 @@ public class Win extends BasicGameState {
                 BarbarianHorde.counter = 0;
                 Player.x = 49f;
                 Player.y = 86f;
-                
+                BarbarianHorde.SandBoss.isVisible = true;
+                BarbarianHorde.MetalBoss.isVisible = true;
                 
                 //item.isvisible = true;
                 //item1.isvisible = true;
                 Itemwin.isvisible = true;
-                Enemy.isAlive = true;
                 game.enterState(1, new FadeOutTransition(Color.black), new FadeInTransition(Color.black));
 
 
