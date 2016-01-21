@@ -146,14 +146,20 @@ public class Win extends BasicGameState {
 
             case Input.KEY_1:
 
-                Player.time  = 500000;
+                Player.time  = 350000;
                 Player.speed = .4f;
                 Player.health = 100;
                 BarbarianHorde.counter = 0;
                 Player.x = 49f;
                 Player.y = 86f;
                 BarbarianHorde.SandBoss.isVisible = true;
+                BarbarianHorde.Boss.isVisible = true;
+                BarbarianHorde.Boss2.isVisible = true;
                 BarbarianHorde.MetalBoss.isVisible = true;
+                BarbarianHorde.key1.isvisible = true;
+                BarbarianHorde.gate1.isvisible = true;
+                BarbarianHorde.gate2.isvisible = true;
+                BarbarianHorde.hasKey = false;
                 
                 //item.isvisible = true;
                 //item1.isvisible = true;

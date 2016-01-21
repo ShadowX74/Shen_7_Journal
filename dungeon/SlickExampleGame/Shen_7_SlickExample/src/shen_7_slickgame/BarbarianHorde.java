@@ -57,10 +57,12 @@ public class BarbarianHorde extends BasicGameState {
         
 //        public Ninja stormy, daniel;
         
-        public Keys key1, key2;
+        static public Keys key1;
         
-        static public Enemy MetalBoss, SandBoss;
+        static public Enemy MetalBoss, SandBoss, Boss, Boss2;
 
+        static public Gate gate1, gate2;
+        
 //	public ArrayList<Item> stuff = new ArrayList();
 
 //	public ArrayList<Item1> stuff1 = new ArrayList();
@@ -68,6 +70,8 @@ public class BarbarianHorde extends BasicGameState {
 	public ArrayList<FinalRing> stuffwin = new ArrayList();
 
 //        public ArrayList<Ninja> dojo = new ArrayList();
+        
+        public ArrayList<Gate> gates = new ArrayList();
         
         public ArrayList<Keys> keyz = new ArrayList();
         
@@ -83,6 +87,7 @@ public class BarbarianHorde extends BasicGameState {
 	
 	public static int counter = 0;
 
+        static boolean hasKey;
 	// Player stuff
 
 	private Animation sprite, up, down, left, right, wait;
@@ -353,10 +358,22 @@ public class BarbarianHorde extends BasicGameState {
 //                dojo.add(stormy);
 //                dojo.add(daniel);
                 
+                gate1 = new Gate(1600,1950);
+                gate2 = new Gate(1632,1950);
+                gates.add(gate1);
+                gates.add(gate2);
+                
+                key1 = new Keys(3082,1489);
+                keyz.add(key1);
+                
                 MetalBoss = new Enemy(2944,1460);
                 SandBoss = new Enemy(1597,2199);
+                Boss = new Enemy (2673,2135);
+                Boss2 = new Enemy (2039, 1500);
                 bosses.add(MetalBoss);
                 bosses.add(SandBoss);
+                bosses.add(Boss);
+                bosses.add(Boss2);
                 
 		ring = new FinalRing(1615, 3133);
 		stuffwin.add(ring);
@@ -380,7 +397,7 @@ public class BarbarianHorde extends BasicGameState {
 
 		sprite.draw((int) Player.x, (int) Player.y);
 		
-		g.drawString("x: " + (int)Player.x + "y: " +(int)Player.y , Player.x, Player.y - 10);
+//		g.drawString("x: " + (int)Player.x + "y: " +(int)Player.y , Player.x, Player.y - 10);
 
 		g.drawString("Time Left: " + Player.time/1000, camera.cameraX + 10,
 				camera.cameraY + 10);
@@ -410,6 +427,23 @@ public class BarbarianHorde extends BasicGameState {
 //
 //			}
 //		}
+                for (Gate d : gates) {
+			if (d.isvisible) {
+				d.currentImage.draw(d.x, d.y);
+				// draw the hitbox
+//				d.draw(d.hitbox);
+
+			}
+		}
+                
+                for (Keys k : keyz) {
+			if (k.isvisible) {
+				k.currentImage.draw(k.x, k.y);
+				// draw the hitbox
+//				d.draw(d.hitbox);
+
+			}
+		}
                 
                 for (Enemy r : bosses) {
                     r.move();
@@ -571,6 +605,34 @@ public class BarbarianHorde extends BasicGameState {
 //
 //			}
 //		}
+                
+                for (Keys k : keyz) {
+
+			if (Player.rect.intersects(k.hitbox)) {
+				//System.out.println("yay");
+				if (k.isvisible) {
+
+					hasKey = true;
+					k.isvisible = false;
+				}
+
+			}
+		}
+                
+                for (Gate d : gates) {
+
+			if (Player.rect.intersects(d.hitbox)) {
+				//System.out.println("yay");
+				if (d.isvisible && hasKey == true) {
+
+					d.isvisible = false;
+				}
+                                if (d.isvisible && hasKey == false) {
+                                    Player.y -= 10;
+                                }
+
+			}
+		}
 		
                 for (Enemy e : bosses) {
 
@@ -578,7 +640,7 @@ public class BarbarianHorde extends BasicGameState {
 				//System.out.println("yay");
 				if (e.isVisible) {
 
-					Player.health -= 99;
+					Player.health -= 34;
 					e.isVisible = false;
 				}
 

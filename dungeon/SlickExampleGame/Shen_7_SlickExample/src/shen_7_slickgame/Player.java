@@ -20,7 +20,7 @@ public class Player {
 
 	public static float y = 86f;
 
-	public static int time = 500000;
+	public static int time = 350000;
 	
 	public static float speed = .4f;
         
