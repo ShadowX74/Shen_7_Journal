@@ -1,0 +1,6 @@
+Briefly describe what you did or did not do that allowed or prevented the timely completion of your game.[Consider the posted timeline, 
+whether you met that timeline, and if you were not meeting that timeline when and whether you worked on the project outside of class.
+
+I did complete my game. I worked on my game daily, but unfortunately did not meet the daily goals of the timeline. I was not abale to add in all of the elements
+by last Friday, but that did not impact the feasibility or playability of my game. This week, I finished up the finer points, such as movements of the enemies,
+and added the key/gate. I did not work on the project outside of class. (I did not set up the Slick libraries at home.)
