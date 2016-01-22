@@ -150,6 +150,7 @@ public class Win extends BasicGameState {
                 Player.speed = .4f;
                 Player.health = 100;
                 BarbarianHorde.counter = 0;
+                Itemwin.isvisible = true;
                 Player.x = 49f;
                 Player.y = 86f;
                 BarbarianHorde.SandBoss.isVisible = true;

@@ -366,9 +366,9 @@ public class BarbarianHorde extends BasicGameState {
                 key1 = new Keys(3082,1489);
                 keyz.add(key1);
                 
-                MetalBoss = new Enemy(2944,1460);
+                MetalBoss = new Enemy(2944,1400);
                 SandBoss = new Enemy(1597,2199);
-                Boss = new Enemy (2673,2135);
+                Boss = new Enemy (2800,2135);
                 Boss2 = new Enemy (2039, 1500);
                 bosses.add(MetalBoss);
                 bosses.add(SandBoss);
