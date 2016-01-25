@@ -1,0 +1,12 @@
+Briefly describe what you could have done to successfully complete your game?
+I completed my game. I turned it in on Friday successfully.
+If I set up my slick libraries at home, however, I may have been able to finish faster and add more features.
+
+Describe your problem solving/trouble shooting process.
+1. Read error message
+2. Solve it if I know how
+3. Check to see if people around me have seen this error before
+4. Google the problem
+5. Ask Daniel
+6. Ask Mr. Davis
+7. If nobody know the answer, undo it.
