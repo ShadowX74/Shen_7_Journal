@@ -1,0 +1,5 @@
+How do you add an image to a slick game?
+You can add an image by setting a variable to a new image with the path to the folder the image is in.
+
+Where is the image drawn? [What code? Be specific.]
+The image is drawn from the coordinates that you give the class. It is drawn by the code object.currentImage.draw(object.x, object.y).
