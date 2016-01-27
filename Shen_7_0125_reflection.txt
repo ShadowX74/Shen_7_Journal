@@ -1,6 +1,6 @@
 Briefly describe what you could have done to successfully complete your game?
-I completed my game. I turned it in on Friday successfully.
-If I set up my slick libraries at home, however, I may have been able to finish faster and add more features.
+I completed my game. I turned it in on Friday.
+If I successfully set up my slick libraries at home, however, I probably have been able to finish faster and add more features.
 
 Describe your problem solving/trouble shooting process.
 1. Read error message
