@@ -521,7 +521,8 @@ public class BarbarianHorde extends BasicGameState {
 				Player.y -= fdelta;
 			}
 		} else if (input.isKeyDown(Input.KEY_SPACE)) {
-                        magic8ball.isIsVisible() = true;
+                        magic8ball.setIsVisible(true);
+
                         
                 } else if (input.isKeyDown(Input.KEY_DOWN)) {
 			sprite = down;

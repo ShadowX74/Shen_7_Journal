@@ -107,7 +107,14 @@ public class Orb {
     public void setHitbox(Shape hitbox) {
         this.hitbox = hitbox;
     }
-        /**
+
+    public void setLocation(int a, int b) {
+        this.setX((int) Player.x);
+        this.setY((int) Player.y);
+        this.setHitboxX((int) Player.x + 5);
+        this.setHitboxY((int) Player.y - 10);
+    }
+    /**
          * Getters and setters are a common concept in Java.
          * A design guideline in Java, and object oriented programming in 
          * general, is to encapsulate/isolate values as much as possible.
