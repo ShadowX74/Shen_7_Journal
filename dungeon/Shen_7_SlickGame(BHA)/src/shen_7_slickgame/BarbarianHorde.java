@@ -52,8 +52,12 @@ public class BarbarianHorde extends BasicGameState {
 
 	
 //	public Item healthpotion, healthpotion1;
+
 //	public Item1 speedpotion, speedpotion1;
-	public FinalRing ring;
+
+        public Orb magic8ball;
+    
+        public FinalRing ring;
         
 //        public Ninja stormy, daniel;
         
@@ -358,6 +362,8 @@ public class BarbarianHorde extends BasicGameState {
 //                dojo.add(stormy);
 //                dojo.add(daniel);
                 
+                magic8ball = new Orb((int) Player.x + 5, (int) Player.y - 10);
+                
                 gate1 = new Gate(1600,1950);
                 gate2 = new Gate(1632,1950);
                 gates.add(gate1);
@@ -435,6 +441,10 @@ public class BarbarianHorde extends BasicGameState {
 
 			}
 		}
+                
+                if (magic8ball.isIsVisible()) {
+                    magic8ball.orbpic.draw(magic8ball.getX(), magic8ball.getY());
+                }
                 
                 for (Keys k : keyz) {
 			if (k.isvisible) {
