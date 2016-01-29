@@ -512,65 +512,38 @@ public class BarbarianHorde extends BasicGameState {
 		boolean cangoright = projectedright < rightlimit;
 
 		// there are two types of fixes. A kludge and a hack. This is a kludge.
-
 		if (input.isKeyDown(Input.KEY_UP)) {
-
 			sprite = up;
-
 			float fdsc = (float) (fdelta - (SIZE * .15));
-
 			if (!(isBlocked(Player.x, Player.y - fdelta) || isBlocked((float) (Player.x + SIZE + 1.5), Player.y - fdelta))) {
-
 				sprite.update(delta);
-
 				// The lower the delta the slower the sprite will animate.
-
 				Player.y -= fdelta;
-
 			}
-
-		} else if (input.isKeyDown(Input.KEY_DOWN)) {
-
+		} else if (input.isKeyDown(Input.KEY_SPACE)) {
+                        magic8ball.isIsVisible() = true;
+                        
+                } else if (input.isKeyDown(Input.KEY_DOWN)) {
 			sprite = down;
-
 			if (!isBlocked(Player.x, Player.y + SIZE + fdelta) && !isBlocked(Player.x + SIZE - 1, Player.y + SIZE + fdelta)) {
-
 				sprite.update(delta);
-
 				Player.y += fdelta;
-
 			}
-
 		} else if (input.isKeyDown(Input.KEY_LEFT)) {
-
 			sprite = left;
-
 			if (!(isBlocked(Player.x - fdelta, Player.y) || isBlocked(Player.x - fdelta, Player.y + SIZE - 1))) {
-
 				sprite.update(delta);
-
 				Player.x -= fdelta;
-
 			}
-
 		} else if (input.isKeyDown(Input.KEY_RIGHT)) {
-
 			sprite = right;
-
 			// the boolean-kludge-implementation
-
-			if (cangoright
-					&& (!(isBlocked(Player.x + SIZE + fdelta,
-
+			if (cangoright && (!(isBlocked(Player.x + SIZE + fdelta,
 					Player.y) || isBlocked(Player.x + SIZE + fdelta, Player.y + SIZE - 1)))) {
-
 				sprite.update(delta);
-
 				Player.x += fdelta;
-
 			} // else { System.out.println("Right limit reached: " +
 				// rightlimit);}
-
 		}
 
 		Player.rect.setLocation(Player.getplayershitboxX(),
