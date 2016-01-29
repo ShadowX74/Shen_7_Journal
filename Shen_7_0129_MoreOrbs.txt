@@ -5,4 +5,4 @@ What should be included in a class constructor for orbs? Why?
 It should have an x and a y for the orb to spawn, so it can fly from there. It also needs a direction to move, and maybe the damage a certain level of it could cause.
 
 What methods should the orb have? Why?
-It should have a move function to fly in a direction, and do damage.
+It should have a move function to fly in a direction, and do damage, as well as disappearing afterwards.
