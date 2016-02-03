@@ -1,0 +1,4 @@
+We will be revising our games so that they are more 'finished'. This will require revision and retweaking.
+Why bother with revising and resubmitting?
+
+We do this in order to make our code more streamlined and more readable. This is an industry standard and will help you with grading.
