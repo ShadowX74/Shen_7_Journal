@@ -1,0 +1,8 @@
+How would one check to see whether weapons damage enemies or objects in Slick?
+for (Enemy e : bosses) {
+    if (orb1.hitbox.intersects(e.rect)) {
+        if (e.isVisible) {
+            e.health -= damage;
+        }
+    }
+}
