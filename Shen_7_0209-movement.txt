@@ -1,0 +1,20 @@
+How can / will you make the orb move in the direction you are facing?
+Explain and provide specific code.
+I will set the movement of the orb dependent on the direction my sprite is facing.
+
+if (playerguy.sprite == playerguy.right) {
+   orb1.xmove = 10;
+   orb1.ymove = 0;
+} else if (playerguy.sprite == playerguy.left) {
+   orb1.xmove = -10;
+   orb1.ymove = 0;
+} else if (playerguy.sprite == playerguy.up) {
+   orb1.xmove = 0;
+   orb1.ymove = -10;
+} else if (playerguy.sprite == playerguy.down) {
+   orb1.xmove = 0;
+   orb1.ymove = 10;
+}
+
+orb1.setX(orb1.x += orb1.xmove);
+orb1.setY(orb1.y += orb1.ymove);
