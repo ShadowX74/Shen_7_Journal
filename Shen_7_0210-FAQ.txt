@@ -1,0 +1,49 @@
+Make a list of ten problems (e.g., FAQs) you have faced when adding orbs to your game.
+Try to provide specific code examples.
+
+1. Orb doesn't respawn after shooting, which I fixed by giving it more time to exist:
+            orb1.setTimeExists(35);
+
+2. Orb too large
+
+3. Orb doesn't move
+                orb1.hitbox.setX(orb1.getX());
+                orb1.hitbox.setY(orb1.getY());
+
+4. Orb visibility flashes
+        if (orb1.isIsVisible()) {
+            if (orb1.getTimeExists() > 0) {
+                ...
+            } else {
+                orb1.setIsVisible(false);
+	    }
+
+5. Orb too slow
+
+6. Orb only kills one enemy
+
+7. Orb hitbox doesn't match size of image
+
+8. Game too easy afterwards: added enemies
+        for (int xAxis = 0; xAxis < grassMap.getWidth(); xAxis++) {
+            for (int yAxis = 0; yAxis < grassMap.getHeight(); yAxis++) {
+                int xBlock = (int) xAxis;
+                int yBlock = (int) yAxis;
+                if (!Blocked.blocked[xBlock][yBlock]) {
+                    if (yBlock % 10 == 0 && xBlock % 10 == 0) {
+                        Enemy e = new Enemy(xAxis * SIZE, yAxis * SIZE);
+                        bosses.add(e);
+                    }
+                }
+
+            }
+        }
+
+9. Respawn all enemies
+    public void makeVisible(){
+        for (Enemy e : bosses) {
+            e.isVisible = true;
+        }
+    }
+
+10. Moving extra enemies back to spots
