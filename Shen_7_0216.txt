@@ -1,0 +1,5 @@
+Describe: How was an array used in your Slick game?
+What might be another use for an array in a different program?
+
+There was an array in the blocked class to hold the locations of all the blocks on the map that were blocked.
+Another way to use them could be a fixed size inventory.
