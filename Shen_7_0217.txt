@@ -1,0 +1,36 @@
+What are arrays used for?
+Arrays are used for storage of many different pieces of the same datatype under one variable name.
+
+What is the code for an int array?
+int [] xiangyusnumbers = [3];
+int [] cartersnumbers = {1,2,3};
+
+What is the difference between Xiangyu's array and Carter's array?
+The first defines the length of an array, while the second defines the objects in an array.
+
+What is the code for an String array?
+String [] xiangyusstrings = {"1"};
+
+What is the code for an boolean array?
+boolean [] xiangyu = {true};
+
+What is the code for an double array?
+double [] xiangyusdouble = {1.0};
+
+How would you change the first value of the int array to 42?
+xiangyusnumbers[0] = 42;
+
+Of the String array to "Bob"?
+xiangyusstrings[0] = "Bob";
+
+What does this do: private String[] dessert = new String[3];
+It creates a new String array that is three peices of data long.
+
+What does this do: private String[] postres = {"rice pudding", "pan dulce", "bunuelos"}
+It creates a new String array with the three items specified above in it.
+
+How are they different?
+The former specifies the length of the array while the latter gives the items.
+
+How would we replace "bunuelos" with "apple pie"?
+postres[2] = "apple pie";
