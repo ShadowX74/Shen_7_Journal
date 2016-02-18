@@ -1,0 +1,44 @@
+Explain this code:
+public Animation Playeranime, up, down, left, right, sprite, wait;
+    public Player() throws SlickException {
+        SpriteSheet runningSS = new SpriteSheet("res/ogrespritesheet.png", 64, 64, 0);
+        up = new Animation();
+        up.setAutoUpdate(true);
+        up.addFrame(runningSS.getSprite(0, 8), 330);
+        up.addFrame(runningSS.getSprite(1, 8), 330);
+        up.addFrame(runningSS.getSprite(2, 8), 330);
+        up.addFrame(runningSS.getSprite(3, 8), 330);
+        up.addFrame(runningSS.getSprite(4, 8), 330);
+        up.addFrame(runningSS.getSprite(5, 8), 330);
+        up.addFrame(runningSS.getSprite(6, 8), 330);
+        up.addFrame(runningSS.getSprite(7, 8), 330);
+        up.addFrame(runningSS.getSprite(8, 8), 330);
+
+This code sets the "up" animation for the player sprite. It takes the images from the spritesheet specified in the folder path under runningSS.
+
+Why would it be unrealistic / unproductive to memorize Slick syntax - what are the skills we were trying to practice?
+It would be unrealistic/unproductive to memorize Slick syntax because Slick is just one way to create a game. What we should be learning is general
+applications that can be used outside of a Slick game, such as arrays and Arraylists.
+
+What is an array?
+An array is a large collection of data pieces of the same datatype, all under one name.
+
+How do you make an array? Give an example.
+int mynumbers[] = {1,2,3,4};
+
+What is an ArrayList?
+An ArrayList is similar to an array, but is not a fixed size.
+
+How do you make an arraylist?
+ArrayList<Class> arrayName = new ArrayList();
+
+In Netbeans, make an arraylist. Use autocompletion with the created arraylist (the '.' and pop-up):
+What are three useful arraylist methods that you identified?
+I found add(), clear(), and isEmpty().
+
+What is the difference between an array and an arraylist?
+An arraylist doesn't have a fixed size.
+
+How could we make a health counter for an avatar?
+We can make an String array with different values, such as "low health", "full health", "damaged", and "dead". As the players numerical health, 
+defined by an integer, decreases beyond a certain point, the String being displayed changes.
