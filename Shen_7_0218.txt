@@ -24,7 +24,7 @@ What is an array?
 An array is a large collection of data pieces of the same datatype, all under one name.
 
 How do you make an array? Give an example.
-int mynumbers[] = {1,2,3,4};
+int[] mynumbers = {1,2,3,4};
 
 What is an ArrayList?
 An ArrayList is similar to an array, but is not a fixed size.
