@@ -27,7 +27,7 @@ How do you make an array? Give an example.
 int[] myNumbers = {1,2,3,4};
 
 What is an ArrayList?
-An ArrayList is similar to an array, but is not a fixed size.
+An ArrayList is similar to an array, but is not a fixed size, and can contain multiple datatypes.
 
 How do you make an arraylist?
 ArrayList<Class> arrayName = new ArrayList();
