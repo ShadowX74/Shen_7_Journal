@@ -1,0 +1,23 @@
+We will have a test on Friday.
+It will be about the notes from last week.
+Are you ready? 
+Yes, I am ready, though I may have to study a bit.
+
+What specific questions do you have about the Slick Game?
+My name is Xiangyu Shen and I'm awesome.
+
+We will be revising our Slick game to:
+1. Have multiple levels
+2. Enemies
+3. Traps (or something) with coordinates defined by an array.
+4. Give and take damage
+5. Score
+6. Inventory or some compelling alternative.
+What will you have to do to get this working?
+I will have to add more states for the level and inventory, as well as setting up an array for the traps similar to the blocked array. I already have the enemies,
+and damage, and I just have to add a running tally for enemies killed.
+
+Are you prepared? Do you have all knowledge you need? 
+If not be specific. 
+I am not prepared to do all of it, becasue I need to examine the existing states to understand what is needed. I will also need to examine the blocked class to help
+me make the traps.
