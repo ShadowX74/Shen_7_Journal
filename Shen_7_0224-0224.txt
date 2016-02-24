@@ -1,0 +1,35 @@
+Define a class Rat
+public class Rat {
+    public int x;
+    public int y;
+    static public boolean isvisible = true;
+    Image currentImage;
+    Shape hitbox;
+    Image rats = new Image("res/rat.png");
+
+    Rat(int a, int b) throws SlickException {
+	this.x = a;
+	this.y = b;
+	this.hitbox = new Rectangle(a, b, 32, 32);
+	this.currentImage = rats;
+    }
+}
+
+Provide the code to declare and instatiate Rats:
+
+public static Rat rat1, rat2, rat3, rat4, rat5;
+
+rat1 = new Rat(12, 2);
+rat2 = new Rat(34, 45);
+rat3 = new Rat(56, 11);
+rat4 = new Rat(11, 123);
+rat4 = new Rat(34, 56);
+
+Explain where the declaration and initialization are placed
+The declaration is in the beginning of the class before any of the methods, and the initialization is in the Slick "init" method.
+
+Provide a two-dimensional array that specifies coordinates for five rats
+public static int[][] coordinates = { 
+	{1,4,7,12,34},
+	{435,576,2234,86,1}
+};
