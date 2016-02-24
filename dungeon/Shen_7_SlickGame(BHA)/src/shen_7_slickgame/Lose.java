@@ -149,18 +149,18 @@ public class Lose extends BasicGameState {
                 Player.time  = 350000;
                 Player.speed = .4f;
                 Player.health = 100;
-                BarbarianHorde.counter = 0;
+                BarbarianHordeTest.counter = 0;
                 Itemwin.isvisible = true;
                 Player.x = 49f;
                 Player.y = 86f;
-                BarbarianHorde.SandBoss.isVisible = true;
-                BarbarianHorde.Boss.isVisible = true;
-                BarbarianHorde.Boss2.isVisible = true;
-                BarbarianHorde.MetalBoss.isVisible = true;
-                BarbarianHorde.key1.isvisible = true;
-                BarbarianHorde.gate1.isvisible = true;
-                BarbarianHorde.gate2.isvisible = true;
-                BarbarianHorde.hasKey = false;
+                BarbarianHordeTest.SandBoss.isVisible = true;
+                BarbarianHordeTest.Boss.isVisible = true;
+                BarbarianHordeTest.Boss2.isVisible = true;
+                BarbarianHordeTest.MetalBoss.isVisible = true;
+                BarbarianHordeTest.key1.isvisible = true;
+                BarbarianHordeTest.gate1.isvisible = true;
+                BarbarianHordeTest.gate2.isvisible = true;
+                BarbarianHordeTest.hasKey = false;
                 //redo potions and reset cordinates of player
                 game.enterState(1, new FadeOutTransition(Color.black), new FadeInTransition(Color.black));
 

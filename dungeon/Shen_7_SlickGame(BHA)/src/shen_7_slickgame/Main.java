@@ -27,7 +27,7 @@ public class Main extends StateBasedGame{
 
       this.addState(new Menu(xSize, ySize));
 
-      this.addState(new BarbarianHorde(xSize, ySize));
+      this.addState(new BarbarianHordeTest(xSize, ySize));
       
       this.addState(new Lose(xSize, ySize));
       

@@ -48,7 +48,7 @@ import org.newdawn.slick.state.transition.FadeOutTransition;
 import org.newdawn.slick.tiled.TiledMap;
 import org.w3c.dom.css.Rect;
 
-public class BarbarianHorde extends BasicGameState {
+public class BarbarianHordeTest extends BasicGameState {
 
 	
 //	public Item healthpotion, healthpotion1;
@@ -113,7 +113,7 @@ public class BarbarianHorde extends BasicGameState {
 
 	private static final int SCREEN_HEIGHT = 750;
 
-	public BarbarianHorde(int xSize, int ySize) {
+	public BarbarianHordeTest(int xSize, int ySize) {
 
 	}
 
