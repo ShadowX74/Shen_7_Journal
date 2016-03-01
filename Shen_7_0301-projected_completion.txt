@@ -1,0 +1,7 @@
+Your revised Slick project is due Friday [Monday if you do homework]
+Do you have another level?
+Not yet.
+
+Will your revisions be complete? Why? Why not?
+I believe they will be, because all I have to do is to add the new state for my second level and add a gamestate for my inventory/shop. I will also
+have to do the traps, but they will be relatively simple.
