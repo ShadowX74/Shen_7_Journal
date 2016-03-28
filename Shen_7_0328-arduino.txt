@@ -1,0 +1,29 @@
+Arduino uses a variant of the C programming language.
+What differences and similarities have you noticed? Provide at least 3 and explain in complete sentences.
+1. Loop syntax is the same. you write while(argument){commands}
+2. Same commenting, they both use //.
+3. Same datatypes, char, int, etc.
+
+What code adaptations have you made? [Or will you make if none to date. Note: 'none' is not a valid answer]
+We have made a row of lights light up and then turn off in a row, so it looks like the light is running down the row. We have also changed some variables to see how 
+the output qould be affected.
+
+What is required for a circuit?
+A power source, conduit for the energy between the two poles, and a resistor/object to use the current.
+
+How are programs compiled with Arduino?
+The IDE compiles the sketch and uploads the code into the Arduino's memory.
+
+Describe the projects you have completed this/last week and what you have learned from them. Descriptions should be _at least_ one full paragraph in length.
+We have completed the projects from one through eleven. We first created simple circuits consisting of lighting up LED's, sometimes including a potentiometer, 
+or using an RGB LED, or a series of LED's. We then learned how to accept input from the user in the form of a button press, and transition it to output, such as
+lighting up an LED. We then added a photo resistor to take the place of a pot, so that the light of the bulb varied based on the ambient light in the room.
+Next, we learned how to view the data collected by a temperature sensor in the GUI. Afterwards, we learned how to power a servo, and control the rotation with 
+a flex sensor. We then learned how to use a soft potentiometer as input to vary voltage, and change the color of an RGB bulb. Finally, we learned how to power a
+buzzer.
+
+You will be completing your own project - a project of your own design that accepts user input and provides light and sound in some way.
+Describe your project and the code adaptations you will have to make. [Note - 'none' is not a valid answer. For example, there is a 'Simon' 
+game provided - using that code would earn a '0' because it is 0% your code.]
+We will use the display or LED's with a rotating color, and the player will have to press the button when the light is in the center. If they are wrong, then a 
+buzzer sound plays, if they are right, a higher sound is played.
