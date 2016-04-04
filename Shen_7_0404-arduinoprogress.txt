@@ -1,0 +1,16 @@
+Describe the progress you have made on your project.
+What have you done?
+We have coded a string of lights that go back and forth, which stops at the press of a button.
+
+What do you need to do?
+We need to set up the sounds and try to get the uploads to our arduino working. Also our win and lose methods, which include changing the delay interval.
+
+What will you be able to turn in on Friday?
+Hopefully, our working project. If we can get the upload to work, then the coding should be done soon.
+
+What code changes are you writing?
+We are coding in methods, a while loop, a button, an RGB LED, 8 other RGBs, and a buzzer.
+
+What functions have you created?
+We have created a 'oneWay' and an 'otherWay' method to cycle the lights. Then there is a 'delaying' method to set the delay. We also have individual methods 
+to turn on each of the lights, as well as each color of the RGB.
