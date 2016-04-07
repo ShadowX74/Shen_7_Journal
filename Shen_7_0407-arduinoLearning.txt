@@ -1,0 +1,10 @@
+Please describe 3 very specific things you have learned about CS or CS specific problems you have solved working with Arduino.
+You should provide AT LEAST 9 sentences worth of detail.
+
+I have learned the value of thoroughly troubleshooting and reevaluation. It is a valuable skill to use when in need of help and do not know what to do.
+Simply looking through some parts of the entire whole is not enough to find the error(s), and reevaluation is a much needed operation in much of life.
+I have also learned the value of creating separate functions for my code in order to better organize code. It also helps with catching errors and 
+backtracking in your code. It helps with outside parties understanding and helping with code comments as well.
+Finally, I realize that your partner may have good ideas, and you should listen to their ideas and think over them, even if they may not seem like
+the best at first. Communicating with others is a path to a successful working relationship and project(in CS, of course). Combined with problems that 
+your partner may have spotted which you did not, they may also provide motivation to you.
