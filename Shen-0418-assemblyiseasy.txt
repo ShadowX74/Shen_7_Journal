@@ -1,0 +1,36 @@
+For what computational reason did you type elf64?
+elf64 tells nasm where the file is, and to reformat the file to 64-bit.
+
+Why did you use ld?
+ld loads the file.
+
+Why did you not have to use chmod to make sample executable?
+It already made the file executable.
+
+Now - change the code to print your name. You should change the program so that it actually prints your name.
+Post the code in your journal
+global _start
+
+        section .text
+_start:
+        mov     rax, 1
+        mov     rdi, 1
+        mov     rsi, message
+        mov     rdx, 31
+        syscall
+
+        mov     eax, 60
+        xor     rdi, rdi
+        syscall
+message:
+        db      "Hello, my name is Xiangyu Shen", 10
+
+
+What problem did you have to solve to get it to work?
+I had to add more bytes to prevent the text from getting cut off.
+
+Given your actual experience with Assembly now --- Is assembly 'quick and easy'? Why or why not?
+No. It is very specific, and has much more syntax. It also requires you to specify all of the commands and run them.
+
+What does 'low level' actually mean with regards to programming languages?
+It means that they are closer to the level of machine language. There are fewer steps to translate it to the machine..
