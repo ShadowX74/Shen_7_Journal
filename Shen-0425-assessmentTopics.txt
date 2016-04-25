@@ -1,0 +1,13 @@
+We will have an end of the year assessment.
+What are 10 concepts you believe will be covered on the test. Why?
+1. Object Oriented programming (OOP is an important category of coding)
+2. Encapsulation (Encapsulation is an important concept of Java and OOP)
+3. High-level Languages vs. Low-level Languages (A conceopt that is imoportant to CS)
+4. Classes (Knowing how they work and what they are used for is a big part of Java)
+5. Objects (How they are created and how they are used i.e.OBJECT oriented programming)
+6. Arrays (Important for organization)
+7. C (For arduinos)
+8. Class Constructors (Need to know what they are for creating classes)
+9. Getters/Setters (For access and privacy of objects and variables)
+10. Instantiation/Declaration (Concept of reserving CPU and storage)
+
