@@ -1,0 +1,27 @@
+Write a Java method to return the cubed value of some number.
+private int cubeNumber(int a) {
+	return a*a*a;
+}
+
+Write an Arduino function to return the cubed value of some number.
+int cubeNumber(int a) {
+	return a*a*a;
+}
+
+Create the class, an object, and class constructor for class student
+public class Student {
+	int homework = 0;
+	int grades = 100;
+
+	public Student(int a, int b) {
+		this.homework = a;
+		this.grades = b;
+	}
+}
+
+Student name;
+name = new Student(3, 96);
+
+Describe - if we were to continue with Arduino - what would you create?
+I would create a program with a soft potentiometer to emit a different pitch depending on how close a person was. This intrigues me, because it could be used to 
+deter people form dangerous locations in real life.
