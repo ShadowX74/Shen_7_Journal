@@ -1,0 +1,8 @@
+The essence of human / higher level learning is developing the skill to discriminate patterns and identify shared characteristics across events (stimuli).
+Memorization - the regurgitation of facts - is considered the lowest level of learning.
+Why, then, are students encouraged to learn CS?
+CS encourages students to not only regurgitate knowledge, but to analyze that knowledge for patterns and apply those learnings to problems. This is the essence
+of high level learning, and is necessary for CS.
+
+What should students learn from CS?
+Studets should learn time management and how to problem solve. They should be able to hone analytical skills and learn to apply knowledge.
