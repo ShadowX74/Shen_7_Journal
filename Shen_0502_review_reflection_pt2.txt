@@ -1,0 +1,41 @@
+In the Array Game assignment you have had to review and revisit concepts you may have forgotten about. These will all be tested on the final exam!
+What is an array?
+An array is a collection of variables that are the same datatype, under one name.
+
+How does one make a simple array of Strings?
+String [] myStrings = {"a", "b", "c"};
+
+What is the syntax for a 2-D array?
+char[][] map = new char[5][5];
+
+What is the syntax for a 3-D array?
+int[][][] moredimensions = new int[3][3][3];
+
+How does one change the value for the third value in a one dimensional array? [Give specific code]
+myStrings[2] = "not b";
+
+What is the syntax for a while loop?
+while (notWin) {
+	if (something) {
+		doStuff();
+	} else {
+		notWin = false;
+	}
+}
+
+Why use while loops in your game?
+We use while loops in our game in order to reiterate a section of code until a certain paramenter is met.
+
+Your game should be in a method outside of main --- How will you call your game in main?
+You can use the method that you define it under. i.e. game();
+
+Why was it recommended that you use .toLowerCase() with your Scanner input?
+In order to be able to process the input simpler and faster, without having to account for the case the user writes the input in when checking the input.
+
+You should use different methods when moving the protagonist and to check for intersections. How? Why?
+You should compartmentalize your code in order to organize code and make it easier to identify errors. You create individual methods and pass valuables on 
+to methods as necessary. i.e. checkCollison(String a, String b);
+
+What values will you pass across methods? how? why?
+I will pass the coordinates of the objects, the user input, and anything else that may be necessary in order for the method to run. I would put it in 
+the parenthesis after the method. i.e. checkCollision("1, 2", "2, 3");
