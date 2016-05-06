@@ -56,7 +56,7 @@ Static is used to modify a variable, causing it to belong to a class, rather tha
 of the class.
 
 Provide an example of how you could use an object with your game. Give a code example.
-I could create a class for my traps or my enemies.
+I could create a class for my traps or my enemies, and then instantiate each trap or enemy as an object.
 
 public class Traps {
     public int x;
