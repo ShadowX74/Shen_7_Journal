@@ -1,0 +1,74 @@
+Given mymap[67][43] Which is the x coordinate? Which is the y coordinate? Why? How does this happen?
+43 is the x-coordinate, 67 is the y-coordinate. This is because the program first specifies the number of rows, then the number of columns needed.
+
+Consider:
+    for (int i = 0; i <= map[0].length - 1; i++) {
+        for (int j = 0; j <= map[1].length - 1; j++) {
+            if (j < map[1].length - 1) {
+              if (i=0){ System.out.print("8888"); #a
+                } else if (map[i][j] != 'x') {
+                    System.out.print("."); #e
+                } else {
+                    System.out.print(map[i][j]); #b
+                }
+              } else {
+                if (map[i][j] != 'x') {
+                    System.out.println("."); #c
+                } else {
+                    System.out.println(map[i][j]); #d
+                }
+            }
+        }
+    }
+ }
+
+Write the code from line #a and explain what it does.
+if (i=0){ System.out.print("8888");
+If the y coordinate is zero, it will print out '8888' in the console, most likely creating a border.
+
+Write the code from line #b and explain what it does.
+System.out.print(map[i][j]);
+This prints out whatever object is at the positions i, j, in the array map.
+
+Write the code from line #c and explain what it does. Explain how its different than #e
+System.out.println(".");
+This prints '.' on a new line in the console, as opposed to #e, where the '.' will simply be printed on the current line.
+
+Write the code from line #d and explain what it does.
+System.out.println(map[i][j]);
+This is similar in function to line #c, printing out the symbol in th array, but simply on a new line.
+
+Explain how to use a boolean with a while loop. Provide a very specific use case and code example.
+You use the boolean as the parameter in a while loop. While the boolean remains true, the while loop continues to iterate through he code
+placed within.
+
+while (play) {
+	game();
+	System.out.println("Play again?");
+	String input = scan.nextln();
+	if input.toLowerCase().contains("n") {
+		play = false;
+	}
+}
+
+Explain the use of static.
+Static is used to modify a variable, causing it to belong to a class, rather than an instance. It becomes shared across the class, and all instances
+of the class.
+
+Provide an example of how you could use an object with your game. Give a code example.
+I could create a class for my traps or my enemies.
+
+public class Traps {
+    public int x;
+    public int y;
+    public boolean isvisible = true;
+        
+    Traps(int a, int b) throws SlickException {
+        this.x = a;
+        this.y = b;
+    }
+}
+
+static Traps trap1, trap2;
+trap1 = new Traps(rand.nextInt(500));
+trap2 = new Traps(rand.nextInt(500));
