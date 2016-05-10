@@ -1,0 +1,25 @@
+public class Hero {
+    int health = 100;
+    int score = 0;
+    int power = 5;
+    int dexterity = 5;
+    int perception = 4;
+    int level = 1;
+    int x, y, z;
+    String name;
+    String weapon;
+    char symbol;
+
+    Hero(String name, int x, int y, char symbol) {
+	this.name = name;
+        this.x = x;
+        this.y = y;
+	this.symbol = symbol;
+    }
+}
+
+Hero hero1 = new Hero("Xiangyu", 2, 32, '@');
+
+You would not initiate a hero in the hero class, becaus the class acts as a template from which to create the object. You do not create an object
+in the template, or else every time you called the class constructor (use the template), the code calling the object would be run again. You want to
+create the object in the class that you will use it in.
