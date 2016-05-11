@@ -1,0 +1,8 @@
+Explain in your own words -- what happens with nested for loops?
+E.g.,
+    for (int i = 0; i <= board[0].length - 1; i++) {
+        for (int j = 0; j <= board[1].length - 1; j++) { ....}
+
+For each slot in board[0], the programs iterates the second for loop. In the second for loop, it runs through the slots in board[1], in effect
+creating an x and a y for a two-dimensional array. In effect, the second for loop is being run for every value in the first for loop. In the game,
+this iterates through both parts of your two-dimensional array, in order to draw a map.
