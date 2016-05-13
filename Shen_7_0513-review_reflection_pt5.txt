@@ -1,0 +1,19 @@
+The Slick assignment was intended to gently familiarize you with 2-D arrays.
+Some students recognized the 2-D arrays from Slick and previous journals --- other students had no recollection. Which were you? Why?
+Note - attributing the environment is not pragmatic - as students experienced the same environment (though they might have experienced it differently).
+
+I was among the former. Two-dimensional arrays are fairly distinctive, and I have a good memory. We are also learning Ruby in Concepts
+of Engineering, and I came upon two-dimensional arrays briefly.
+
+Make a list of ten questions related to the Array assignments pt 1 and 2 - that you predict will be on the semester exam. 
+E.g., object initialization, class constructors, creating and changing arrays, etc.
+1. What is a two-dimensional array?
+2. How you create one?
+3. Does the x, or the y come first?
+4. Why?
+5. How does one create a class constructor?
+6. Why would one not declare an object in the class?
+7. What is the difference between declaration and initialization?
+8. What purpose does a nested for loop serve?
+9. What does static do for a variable?
+10. How would you access the 5th objects in the 4th array of a two-dimensiona array?
