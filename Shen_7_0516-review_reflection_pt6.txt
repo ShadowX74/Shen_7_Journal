@@ -1,0 +1,21 @@
+Explain casting. Up-casting, Down-casting.
+Casting is changing the datatype of a variable or object. Up-casting is making the datatype more complex. Down-casting is making it less complex.
+
+Give a specific code example for up-casting
+int integer = 1;
+double trouble;
+trouble = integer;
+
+Give a specific code example for down-casting
+double bob = 3.1415926525
+int i;
+i = (int)bob;
+
+Give a specific code example for converting a char to a String
+char a = 'a';
+String s = "" + a;
+
+What is the range of values for byte? Why?
+-128 to 127. A byte is 8 bits, with each bit being a binary number. Thus, the maximum number of values possible is 255.
+If the 1 at the left end is 1, then the numbers begin adding on from -128. Should it be a 0, the value starts from 0.
+This is represented by a system called two's compliment.
